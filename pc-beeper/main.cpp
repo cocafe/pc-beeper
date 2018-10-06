@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
 	}
 
 	if (WinRing0_init()) {
-		fprintf_s(stderr, "%s(): failed to init WinRing0 driver, may try with administrator permission again\n", __func__);
+		fprintf_s(stderr, "%s(): failed to init WinRing0 driver\n", __func__);
 
 		return -1;
 	}
